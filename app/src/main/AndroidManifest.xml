@@ -2,12 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weatherapi">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <!--    Location    -->
-    <!--    정확한 위치    -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <!--    대략적인 위치    -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Location -->
+    <!-- 정확한 위치 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 대략적인 위치 -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -18,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherAPI"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity2"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
