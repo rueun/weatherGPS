@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     var getLongitude: Double? = null // 위도
     var getLatitude: Double? = null // 경도
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
